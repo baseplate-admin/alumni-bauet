@@ -17,4 +17,10 @@ public class AlumniService {
     public List<Alumni> finaAll() {
         return alumniRepository.findAll();
     }
+
+    public List<Alumni> createOneAlumni(Alumni alumni) {
+        if alumniRepository.findAlumniByEmail(alumni)
+        
+
+    }
 }
