@@ -14,7 +14,7 @@ public class AlumniService {
         this.alumniRepository = alumniRepository;
     }
 
-    public List<Alumni> getAlumni() {
+    public List<Alumni> finaAll() {
         return alumniRepository.findAll();
     }
 }
